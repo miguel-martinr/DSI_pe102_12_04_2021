@@ -6,5 +6,5 @@
   "out": "./docs",
   "theme": "default",
   "highlightTheme": "github-light",
-  "media": "./images"
+  "media": "./media"
 }
