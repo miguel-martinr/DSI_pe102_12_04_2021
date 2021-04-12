@@ -9,6 +9,6 @@ export class WaterPokemon extends Pokemon {
   }
 
   talk(): string {
-    return `My name is ${this.name}, and I'm a Water Pokemon`;
+    return `My name is ${this.name}, and I'm a Water Pokemon (${this.getHp()} HP)`;
   }
 }

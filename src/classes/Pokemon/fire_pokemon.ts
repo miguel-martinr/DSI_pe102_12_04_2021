@@ -10,6 +10,6 @@ export class FirePokemon extends Pokemon {
   }
 
   talk(): string {
-    return `My name is ${this.name}, and I'm a Fire Pokemon`;
+    return `My name is ${this.name}, and I'm a Fire Pokemon (${this.getHp()} HP)`;
   }
 }
