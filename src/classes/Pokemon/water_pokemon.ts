@@ -1,5 +1,8 @@
 import { Pokemon } from "./pokemon";
 
+/**
+ * Representa un pokemon de tipo WATER
+ */
 export class WaterPokemon extends Pokemon {
   constructor(name: string, weight: number, height: number,
       attack: number, defense: number,

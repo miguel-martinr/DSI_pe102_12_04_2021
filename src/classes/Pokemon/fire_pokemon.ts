@@ -1,6 +1,9 @@
 import { PokemonType } from "../../interfaces/fighter";
 import { Pokemon } from "./pokemon";
 
+/**
+ * Representa un pokemon de tipo FIRE
+ */
 export class FirePokemon extends Pokemon {
   constructor(name: string, weight: number, height: number,
       attack: number, defense: number,

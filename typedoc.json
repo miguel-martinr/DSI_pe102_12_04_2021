@@ -1,5 +1,5 @@
 {
-  "name": "Ejercicios PE102",
+  "name": "Ejercicios PE102 - Patrón Factory method, Módulos ES6, Github Actions",
   "entryPoints": [
     "./src"
   ],

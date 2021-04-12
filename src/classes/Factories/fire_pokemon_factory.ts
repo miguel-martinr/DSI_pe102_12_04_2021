@@ -3,7 +3,7 @@ import { Pokemon, FirePokemon } from "../Pokemon";
 import { PokemonFactory } from "./pokemon_factory";
 
 /**
- * Factoría de pokemon tipo FIRE
+ * Factoría de pokemons tipo FIRE
  */
 export class FirePokemonFactory extends PokemonFactory {
   constructor(private readonly name: string, private readonly weight: number, private readonly height: number,
@@ -13,6 +13,9 @@ export class FirePokemonFactory extends PokemonFactory {
     super();
   }
 
+  /**
+   * Crea y devuelve un objeto Pokemon con los atirbutos pasados al constructor de la factoría
+   */
   factoryMethod(): Pokemon {
     return new FirePokemon(this.name, this.weight, this.height, this.attack, this.defense, this.hp); 
   }
